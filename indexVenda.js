@@ -5,7 +5,7 @@ const produtos = [
 ];
 
 let exibirProduto = (p,i) => {
-    console.log(i+ '.' + p.nome + ' R$' + p.preco.tofixed(2));
+    console.log(i+ '.' + p.nome + ' R$' + p.preco.toFixed(2));
 };
 
 console.log('TODOS OS PRODUTOS:');
